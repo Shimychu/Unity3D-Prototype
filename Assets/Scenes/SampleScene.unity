@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 175783714}
   - component: {fileID: 175783713}
   - component: {fileID: 175783715}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1255,6 +1255,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1155510430, guid: 534869519dcbabd45814adc1c33b2745, type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155510430, guid: 534869519dcbabd45814adc1c33b2745, type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155510430, guid: 534869519dcbabd45814adc1c33b2745, type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155510430, guid: 534869519dcbabd45814adc1c33b2745, type: 3}
+      propertyPath: m_OnActivate.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 644245256072273739}
     - target: {fileID: 639555749920883157, guid: 534869519dcbabd45814adc1c33b2745,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1315,5 +1331,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flashlight
       objectReference: {fileID: 0}
+    - target: {fileID: 644962876460503885, guid: 534869519dcbabd45814adc1c33b2745,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 534869519dcbabd45814adc1c33b2745, type: 3}
+--- !u!1 &644245256072273739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 644962876460503885, guid: 534869519dcbabd45814adc1c33b2745,
+    type: 3}
+  m_PrefabInstance: {fileID: 644245256072273738}
+  m_PrefabAsset: {fileID: 0}
